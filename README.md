@@ -10,3 +10,8 @@
 已经有编译后的程序，可直接使用
 
 所需库
+
+
+~~~c
+pip install requests
+~~~
