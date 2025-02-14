@@ -15,3 +15,20 @@
 ~~~c
 pip install requests
 ~~~
+~~~c
+pip install beautifulsoup4
+~~~
+~~~c
+pip install tqdm
+~~~
+~~~c
+pip install requests
+~~~
+
+
+
+
+
+
+
+
