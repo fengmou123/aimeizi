@@ -21,9 +21,6 @@ pip install beautifulsoup4
 ~~~c
 pip install tqdm
 ~~~
-~~~c
-pip install requests
-~~~
 
 
 
