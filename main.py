@@ -5,7 +5,7 @@ import os
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 
-# 请求头，模拟浏览器访问
+# 请求头
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
 
@@ -93,7 +93,7 @@ def download_images(url, folder_path, start_index=0):
 
 
 def main():
-    # 创建 downloads 文件夹（如果不存在）
+    # 创建 downloads 文件夹（如果不存在）doge
     downloads_folder = 'downloads'
     if not os.path.exists(downloads_folder):
         os.makedirs(downloads_folder)
